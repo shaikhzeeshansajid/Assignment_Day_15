@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-Up Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+    <h1>Create Account</h1>
+    <form id="signupForm">
+      <input type="text" id="user" placeholder="Enter Name">
+      <input type="text" id="mail" placeholder="Enter Email">
+      <input type="text" id="mobile" placeholder="Enter Phone">
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="button" id="resetBtn">Clear</button>
+      </div>
+      <div id="feedback"></div>
+    </form>
+
+    <div id="recordSection">
+      <h3>User Submissions</h3>
+      <div id="records"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
